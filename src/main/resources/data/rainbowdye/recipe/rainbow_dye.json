@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "rainbow_dye",
+  "pattern": [
+    " R ",
+    "BNY",
+    " G "
+  ],
+  "key": {
+    "R": "minecraft:red_dye",
+    "B": "minecraft:blue_dye",
+    "Y": "minecraft:yellow_dye",
+    "G": "minecraft:green_dye",
+    "N": "minecraft:nether_star"
+  },
+  "result": {
+    "id": "rainbowdye:rainbow_dye",
+    "count": 1
+  }
+}

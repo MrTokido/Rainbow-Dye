@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "rainbowdye",
+  "version": "${version}",
+  "name": "Rainbow Dye",
+  "description": "Adds a Rainbow Dye, crafted from the four primary dyes around a Nether Star. Right-click any placed shulker box with it and the box cycles through colours like a jeb_ sheep, keeping its contents. Shulker boxes only - no wool, no sheep, no beds.",
+  "authors": [
+    "Tokido"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/rainbowdye/textures/item/rainbow_dye.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.tokido.rainbowdye.RainbowDye"
+    ],
+    "client": [
+      "com.tokido.rainbowdye.client.RainbowDyeClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    "rainbowdye.mixins.json"
+  ]
+}

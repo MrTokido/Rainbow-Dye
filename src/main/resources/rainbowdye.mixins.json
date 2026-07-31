@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.tokido.rainbowdye.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "BlockEntityTypeAccessor"
+  ],
+  "client": [
+    "SheetsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

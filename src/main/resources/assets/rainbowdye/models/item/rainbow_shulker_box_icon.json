@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "rainbowdye:block/rainbow_shulker_box_top",
+    "bottom": "rainbowdye:block/rainbow_shulker_box_bottom",
+    "side": "rainbowdye:block/rainbow_shulker_box_side",
+    "particle": "rainbowdye:block/rainbow_shulker_box_side"
+  }
+}
